@@ -1,0 +1,2 @@
+/Users/gersonapollo/Desenvolvimento/unit/projects/Desafio nas Alturas/obj/Debug/Assembly-CSharp.csprojResolveAssemblyReference.cache
+/Users/gersonapollo/Desenvolvimento/unit/projects/Desafio nas Alturas/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache

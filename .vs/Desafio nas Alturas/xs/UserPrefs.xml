@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{A88933EA-1E06-FAAE-D1BF-B21BC81A12AE}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/obstaculo.cs">
+    <Files>
+      <File FileName="Assets/scripts/aviao.cs" Line="17" Column="29" />
+      <File FileName="Assets/scripts/obstaculo.cs" Line="12" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/gersonapollo/Desenvolvimento/unit/projects/Desafio nas Alturas/Assets/scripts/aviao.cs" relfile="Assets/scripts/aviao.cs" line="17" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
