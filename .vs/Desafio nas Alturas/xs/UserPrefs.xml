@@ -1,9 +1,11 @@
 ﻿<Properties StartupConfiguration="{A88933EA-1E06-FAAE-D1BF-B21BC81A12AE}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/obstaculo.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/Carrossel.cs">
     <Files>
-      <File FileName="Assets/scripts/aviao.cs" Line="17" Column="29" />
-      <File FileName="Assets/scripts/obstaculo.cs" Line="12" Column="1" />
+      <File FileName="Assets/scripts/Aviao.cs" Line="17" Column="26" />
+      <File FileName="Assets/scripts/Obstaculo.cs" Line="7" Column="37" />
+      <File FileName="Assets/scripts/GeradorObstaculo.cs" Line="22" Column="9" />
+      <File FileName="Assets/scripts/Carrossel.cs" Line="5" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

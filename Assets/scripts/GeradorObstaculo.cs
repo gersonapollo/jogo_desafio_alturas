@@ -5,11 +5,10 @@ using UnityEngine;
 public class GeradorObstaculo : MonoBehaviour {
 
 	[SerializeField]
-	private float tempoParaGerarObstaculo;
-	
-	private float cronometro;
+    private float tempoParaGerarObstaculo;
 	[SerializeField]
 	private GameObject objeto;
+    private float cronometro;
 
 	private void Awake(){
 		this.cronometro = this.tempoParaGerarObstaculo;

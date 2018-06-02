@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Obstaculo : MonoBehaviour {
 	[SerializeField]
-    private float velocidade = 0.2f;
+    private float velocidade = 5f;
 	// Update is called once per frame
 	void Update () {
-		this.transform.Translate(Vector3.left * this.velocidade);
+        this.transform.Translate(Vector3.left * this.velocidade);
 		
 	}
 }
