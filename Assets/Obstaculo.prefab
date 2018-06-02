@@ -54,6 +54,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4098039392843916}
   - component: {fileID: 114871500303391126}
+  - component: {fileID: 50252561899092060}
   m_Layer: 0
   m_Name: Obstaculo
   m_TagString: Untagged
@@ -69,7 +70,7 @@ Transform:
   m_GameObject: {fileID: 1969214563938466}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 12, y: 0.3564729, z: -0.060768537}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children:
   - {fileID: 4189569266908544}
   - {fileID: 4523765663542298}
@@ -83,7 +84,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1927250657168924}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.14, z: 0.060768537}
+  m_LocalPosition: {x: 0, y: -2.7, z: 0.060768537}
   m_LocalScale: {x: 1.5, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 4098039392843916}
@@ -96,12 +97,32 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1915458410862008}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 4.42, z: 0.060768537}
+  m_LocalPosition: {x: 0, y: 4.2, z: 0.060768537}
   m_LocalScale: {x: 1.5, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 4098039392843916}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50252561899092060
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1969214563938466}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!60 &60359995258498114
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -218,6 +239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 0.08
+  alturaMaxima: 1.5
 --- !u!212 &212549589671817914
 SpriteRenderer:
   m_ObjectHideFlags: 1
