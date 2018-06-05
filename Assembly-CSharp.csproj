@@ -61,8 +61,10 @@
   <ItemGroup>
     <Compile Include="Assets\scripts\Aviao.cs" />
     <Compile Include="Assets\scripts\Carrossel.cs" />
+    <Compile Include="Assets\scripts\Diretor.cs" />
     <Compile Include="Assets\scripts\GeradorObstaculo.cs" />
     <Compile Include="Assets\scripts\Obstaculo.cs" />
+    <Compile Include="Assets\scripts\Pontuacao.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/gersonapollo/Desenvolvimento/unit/projects/Desafio nas Alturas/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

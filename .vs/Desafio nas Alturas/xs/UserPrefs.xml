@@ -1,18 +1,16 @@
 ﻿<Properties StartupConfiguration="{A88933EA-1E06-FAAE-D1BF-B21BC81A12AE}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/Carrossel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/Pontuacao.cs">
     <Files>
-      <File FileName="Assets/scripts/Aviao.cs" Line="17" Column="26" />
-      <File FileName="Assets/scripts/Obstaculo.cs" Line="7" Column="37" />
-      <File FileName="Assets/scripts/GeradorObstaculo.cs" Line="22" Column="9" />
-      <File FileName="Assets/scripts/Carrossel.cs" Line="5" Column="23" />
+      <File FileName="Assets/scripts/Aviao.cs" Line="18" Column="5" />
+      <File FileName="Assets/scripts/Diretor.cs" Line="22" Column="34" />
+      <File FileName="Assets/scripts/Obstaculo.cs" Line="18" Column="3" />
+      <File FileName="Assets/scripts/Pontuacao.cs" Line="7" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/gersonapollo/Desenvolvimento/unit/projects/Desafio nas Alturas/Assets/scripts/aviao.cs" relfile="Assets/scripts/aviao.cs" line="17" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

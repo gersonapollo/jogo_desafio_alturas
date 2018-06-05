@@ -7,13 +7,20 @@ public class Aviao : MonoBehaviour {
     private Rigidbody2D fisica;
     [SerializeField]
     private float forca = 10;
+    private Diretor diretor;
+    private Vector3 posicaoInicial;
 
 	private void Awake()
 	{
-        fisica = this.GetComponent<Rigidbody2D>();
+        this.posicaoInicial = this.transform.position;
+        this.fisica = this.GetComponent<Rigidbody2D>();
+    }
+
+    private void Start(){
+		this.diretor = GameObject.FindObjectOfType<Diretor>();
+		
 	}
 
-	// Update is called once per frame
 	private void Update () {
         if(Input.GetMouseButtonDown(0)){
             this.impulsionar();
@@ -23,6 +30,16 @@ public class Aviao : MonoBehaviour {
     private void impulsionar()
     {
         this.fisica.velocity = Vector2.zero;
-        fisica.AddForce(Vector2.up * this.forca, ForceMode2D.Impulse);
+        this.fisica.AddForce(Vector2.up * this.forca, ForceMode2D.Impulse);
+    }
+
+	private void OnCollisionEnter2D(Collision2D colisao){
+		this.diretor.PararJogo();
+        this.fisica.simulated = false;
+	}
+
+    public void Reiniciar(){
+        this.transform.position = this.posicaoInicial;
+        this.fisica.simulated = true;
     }
 }
